@@ -14,4 +14,4 @@ const commonApi=async (httpMethod,url,reqBody,reqHeader)=>{
         return err
     })
 }
-export default commonApi
+export default commonApi

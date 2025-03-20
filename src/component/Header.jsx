@@ -12,7 +12,7 @@ function Header() {
   const navigate=useNavigate()
 
   const logout=()=>{
-    sessionStorage.clear
+    sessionStorage.clear()
    setauthorised(false )
     navigate('/')
   }
